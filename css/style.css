@@ -6,7 +6,7 @@
     animation-name: m;
     animation-duration: 4s;
     /* animation-fill-mode: forwards; */
-    animation-direction: alternate-reverse~;
+    animation-direction: alternate-reverse;
     position: absolute;
 
 }
@@ -18,4 +18,7 @@
     100%{
         left: calc(100% - 150px);
     }
+}
+.div1{
+    top: 200;
 }
