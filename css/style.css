@@ -1,0 +1,23 @@
+
+/* .parent p{
+    background-color: brown;
+} */
+/* .parent > p{
+    background-color: blue;
+} */
+
+/* .div1 + h2{
+    background-color: blue;
+} */
+/* diract sibling selector */
+
+.div1 ~ p{
+    background-color: blue;
+}
+p{
+    width: 400px;
+}
+
+html{
+    /* direction: rtl; */
+}
